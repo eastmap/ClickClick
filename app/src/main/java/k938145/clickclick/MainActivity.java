@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     //          지명변수 범위오버시 스테이지변경 함수 호출
     //3. 변수: 정수배열[12], 이미지배열[12], 버튼대응배열[12], 지명변수, 스테이지변수
     //4. 함수: 초기화함수(메인화면 및 변수 초기화), 정수배열 랜덤정렬, 온클릭, 스테이지변경함수
-
+    //aaaaaa
 
     //변수들
     int[] nums= new int[12];
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         //랜덤정렬생성 호출
         rndSort(nums);
 
-        new ImageButton();
+        new ImageButton(this);
 
         //초기화함수 호출
         init(stage);
